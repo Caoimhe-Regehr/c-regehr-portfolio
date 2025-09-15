@@ -1,8 +1,10 @@
-title: My Portfolio
-name: C Regehr
+title: Caoimhe Regehr Portfolio
+name: Caoimhe Regehr
 email: bxregehr@gmail.com
+baseurl: "https://caoimhe-regehr.github.io"
+url: "/Portfolio"
 
 collections:
   design:
     output: true
-    permalink: /:collection/:path:
+    permalink: /:collection/:path/
