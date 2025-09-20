@@ -15,7 +15,7 @@ html{
 
 p{
 	font-family: 'DIN Condensed VF';
-	font-size: 32px;
+	font-size: 48px;
 	padding: 50px;
 	padding-bottom: 0px;
 }
@@ -49,4 +49,89 @@ p{
 
 #brandmark{
 	margin: auto;
+}
+
+#colourpalete{
+	margin-top: 100px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+#swatches{
+	display: flex;
+	justify-content: center;
+	
+}
+
+.swatch{
+	height: 150px;
+	width: 250px;
+	margin: 50px 150px;
+}
+
+#primary{
+	background-color: black;
+}
+
+#secondary{
+	background-color: #FFB400;
+}
+
+#tertiary{
+	background-color: white;
+}
+
+#accent{
+	background-color: #203040;
+}
+
+
+#colourlabels{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.Label{
+	margin: -50px 145px;
+}
+
+#hexidecimals{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.hex{
+	font-family: 'GFS Didot';
+	font-size: 30px;
+	margin: 0px 150px;
+}
+
+#palette{
+	font-size: 64px;
+	margin: -25px;
+}
+
+.fontfaces{
+	display: flex;
+	justify-content: center;
+	margin: -50px;
+}
+
+#DIN{
+	margin: 0px 150px;
+}
+
+#Didot{
+	margin: 0px 150px;
+}
+
+.Didot{
+	font-family: 'GFS Didot'
+}
+
+.treatment{
+	font-size: 48px;
 }
