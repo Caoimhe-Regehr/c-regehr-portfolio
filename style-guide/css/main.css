@@ -1,1 +1,52 @@
+@font-face{ /*import didot font*/
+	font-family: 'GFS Didot'; /*Slim typeface*/
+	src: url("../../fonts/GFSDidot-Regular.ttf");
+}
 
+@font-face{ /*import DIN font*/
+	font-family: 'DIN Condensed VF'; /*main typeface*/
+	src: url("../../fonts/DINCondensedVF-Regular.otf")
+}
+
+html{
+	margin: auto;
+	margin-top: -50px;
+}
+
+p{
+	font-family: 'DIN Condensed VF';
+	font-size: 32px;
+	padding: 50px;
+	padding-bottom: 0px;
+}
+
+.title{
+	font-family: 'DIN Condensed VF';
+	font-size: 96px;
+	text-align: center;
+}
+
+#MainLogo{
+	display: flex;
+	justify-content: center;
+}
+
+.logogrouping{
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+	margin-top: -50px;
+}
+
+#logolabels{
+	display: flex;
+}
+
+#centrelabel{
+	flex-flow: row;
+	margin: auto;
+}
+
+#brandmark{
+	margin: auto;
+}
