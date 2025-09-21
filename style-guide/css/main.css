@@ -66,7 +66,7 @@ p{
 
 .swatch{
 	height: 150px;
-	width: 250px;
+	width: 450px;
 	margin: 50px 150px;
 }
 
@@ -134,4 +134,41 @@ p{
 
 .treatment{
 	font-size: 48px;
+}
+
+#perforations{
+	margin:50px 50px 0px 50px;
+	height: 72px;
+	background-image: url("../img/Film Perforations-01.png")
+}
+
+#verticalstrip{
+	margin: 0px 50px;
+	width:292px;
+	height: 449px;
+}
+
+#imaxframe{
+	margin: 0px 300px;
+	width:530px;
+	height: 449px;
+	
+}
+
+#LCD{
+	margin: 0px 150px;
+	width:230px;
+	height: 225px;
+	position: absolute;
+	top: 2050px;
+	right: -90px;
+	
+}
+
+#vector{
+	width: 207px;
+	height: 207px;
+	position: absolute;
+	top: 2307px;
+	right: 60px;
 }
