@@ -1,12 +1,6 @@
-@font-face{ /*import didot font*/
-	font-family: 'GFS Didot'; /*Slim typeface*/
-	src: url("../../fonts/GFSDidot-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
-@font-face{ /*import DIN font*/
-	font-family: 'DIN Condensed VF'; /*main typeface*/
-	src: url("../../fonts/DINCondensedVF-Regular.otf")
-}
+@import url("https://use.typekit.net/srw4cth.css");
 
 html{
 	margin: auto;
