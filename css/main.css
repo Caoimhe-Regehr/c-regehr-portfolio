@@ -65,7 +65,7 @@ footer{
 
 
 #hero{
-	width: 95%;
+	width: 85%;
 	aspect-ratio: 2/1;
 	border-radius: 65px;
 
@@ -76,7 +76,8 @@ footer{
 	flex-direction: column;
 
 	
-	background-color: #404040;
+	background-image: url("../img/landing images/duck-pond.jpg");
+	background-size: cover;
 	text-align: right;
 	
 	overflow: hidden;
@@ -99,6 +100,27 @@ footer{
 	background-image: url("../img/negative-perforations.jpg");
 	background-size: 90px 60px;
 	margin: 10px 0px 10px 0px;
+}
+
+#portfolio-heroes{
+	width: 95vw;
+	
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.portfolio-display{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.portfolio-image{
+	margin-top: 0px;
+	margin-bottom: 40px;
+	
+	border-radius: 65px;
 }
 
 #email{
@@ -129,7 +151,12 @@ footer{
 	#headerlogo{
 	height: 60px;
 	margin: 8px 16px;
-}
+	}
+	
+	nav{
+		width: 60%;
+		top: 30px;
+	}
 	
 	footer{
 		height: 75px;
@@ -149,6 +176,12 @@ footer{
 		height: 30px;
 		background-size: 45px 30px;
 		margin: 5px 0px;
+	}
+	
+	.portfolio-image{
+		width: 75%;
+		border-radius: 32px;
+		margin-bottom: 20px;
 	}
 	
 	#email{
