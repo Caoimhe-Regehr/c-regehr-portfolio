@@ -111,13 +111,14 @@ footer{
 }
 
 .portfolio-display{
-	width: 75%;
 	margin: auto;
 	display: flex;
 	justify-content: center;
 }
 
 .portfolio-image{
+	width: 75%;
+	
 	margin-top: 0px;
 	margin-bottom: 40px;
 	
@@ -194,5 +195,4 @@ footer{
 		font-size: 16px;
 	}
 }
-
 
