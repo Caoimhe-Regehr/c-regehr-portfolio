@@ -6,6 +6,8 @@ html{
 	display: flex;
 	justify-content: center;
 	background-color: #000000;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 
@@ -17,6 +19,7 @@ h2{
 }
 
 p{
+	font-size: 20px;
 	font-family: "GFS Didot";
 	color: #FFF;
 }
@@ -28,26 +31,56 @@ header{
 	border: 5px solid #FFB400;
 }
 
+#headerlogo{
+	height: 100px;
+	margin: 13.25px 32px;
+}
+
+nav{
+	position: absolute;
+	top: 75px;
+	left: 30%;
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar{
+	font-family: "GFS Didot";
+	font-size: 36px;
+	color: #FFB400;
+}
+
 footer{
 	height: 125px;
 	width: 100vw;
+	
 	background-color: #FFB400;
 	border: 5px solid #FFB400;
+	
+	display: flex;
+	flex-direction: column;
 }
 
 
 
 #hero{
 	width: 95%;
-	aspect-ratio: 3/2;
+	aspect-ratio: 2/1;
+	border-radius: 65px;
+
 	margin: 0px auto;
 	padding: 32px;
-	border-radius: 65px;
-	background-color: #404040;
-	text-align: right;
 	display: flex;
 	justify-content: right;
 	flex-direction: column;
+
+	
+	background-color: #404040;
+	text-align: right;
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 #about-title{
@@ -63,16 +96,40 @@ footer{
 .perforations{
 	width: 100vw;
 	height: 60px;
-	background-image: url("/img/negative-perforations.jpg");
+	background-image: url("../img/negative-perforations.jpg");
 	background-size: 90px 60px;
 	margin: 10px 0px 10px 0px;
 }
 
+#email{
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	margin-top: 38px;
+	margin-bottom: 2px;
+}
+
+#YouTube{
+	margin-top: 2px;
+	text-align: center;
+	color: black;
+}
 
 @media (max-width: 720px){
+	
+	p{
+		font-size: 14px;
+	}
+	
 	header{
 		height: 75px;
+		display: flex;
 	}
+	
+	#headerlogo{
+	height: 60px;
+	margin: 8px 16px;
+}
 	
 	footer{
 		height: 75px;
@@ -80,12 +137,27 @@ footer{
 	
 	#hero{
 	width: 90%;
-	aspect-ratio: 3/2;
-	margin: 40px auto;
-	padding: 32px;
-	border-radius: 65px;
-	background-color: #404040;
-	text-align: right;
-}
+	}
+	
+	#about-title{
+	font-size: 24px;
+	margin: 8px;
+	color: #FFB400;
+	}
+	
+	.perforations{
+		height: 30px;
+		background-size: 45px 30px;
+		margin: 5px 0px;
+	}
+	
+	#email{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	
+	#YouTube{
+		font-size: 16px;
+	}
 }
 
