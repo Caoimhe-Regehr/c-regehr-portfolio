@@ -44,7 +44,7 @@ header{
 }
 #headerlogo{
 	height: 100px;
-	margin: 13.25px 32px;
+	margin: 13.25px 16px;
 }
 
 nav{
@@ -130,4 +130,5 @@ footer{
 	margin-top: 2px;
 	text-align: center;
 	color: black;
+
 }
