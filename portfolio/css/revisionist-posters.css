@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 
 @import url("https://use.typekit.net/srw4cth.css");
-
 html{
 	display: flex;
 	justify-content: center;
@@ -10,8 +9,6 @@ html{
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-
-
 
 h2{
 	font-family: "din-condensed-variable";
@@ -23,16 +20,6 @@ h2{
 p{
 	font-size: 20px;
 	font-family: "GFS Didot";
-	color: #FFF;
-}
-
-.portfoliotitle{
-	color: #FFF;
-	margin-top: 2px;
-	margin-bottom: 32px;
-}
-
-.negative{
 	color: #FFF;
 }
 
@@ -72,66 +59,19 @@ nav{
 	margin: 10px 0px 10px 0px;
 }
 
-.portfoliocontainer{
-	margin-left: 16px;
-	margin-right: 16px;
-}
-
-#portfolio{
-	width: 95vw;
+.poster-display{
+	margin: 32px;
 	display: flex;
-	flex-flow: row;
-	
-	
-	margin: auto;
 	justify-content: center;
 }
 
-.preview{
-	margin: auto;						/*external placement control*/
-	margin-top: 0px;
-	margin-bottom: 40px;
-	
-	display: flex;						/*internal placement control*/
-	justify-content: center;
-	
-	width: 250px;						/*image display*/
-	height: 250px;
-	object-fit: cover;
-	
-	border-radius: 32px;
+.explanation{
+	padding: 64px;
+	width: 45vw;
 }
 
-.label{
-	text-align: center;
-	margin-top: 0px;
-	position: relative;
-	top: -25px;
-}
-
-footer{
-	height: 125px;
-	width: 100vw;
-	
-	background-color: #FFB400;
-	border: 5px solid #FFB400;
-	
-	display: flex;
-	flex-direction: column;
-}
-
-#email{
-	text-align: center;
-	font-size: 22px;
-	color: black;
-	margin-top: 38px;
-	margin-bottom: 2px;
-}
-
-#YouTube{
-	margin-top: 2px;
-	text-align: center;
-	color: black;
+.poster-image{
+	width:500px;
 }
 
 @media (max-width: 720px){			/*Due to most modern phones going up to FHD resolution, and some above, I have opted for a rather large cut off for mobile phone screens*/

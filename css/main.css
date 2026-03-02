@@ -76,7 +76,7 @@ footer{
 	flex-direction: column;
 
 	
-	background-image: url("../img/landing images/duck-pond.jpg");
+	background-image: url("../img/landing images/duck-pond.jpg");					/*Add image to main bio/hero*/
 	background-size: cover;
 	text-align: right;
 	
@@ -139,7 +139,7 @@ footer{
 	color: black;
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px){			/*Due to most modern phones going up to FHD resolution, and some above, I have opted for a rather large cut off for mobile phone screens*/
 	
 	p{
 		font-size: 14px;
