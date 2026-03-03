@@ -139,6 +139,26 @@ footer{
 	color: black;
 }
 
+#contact{
+	display: flex;
+	justify-content: center;
+	margin: 32px;
+}
+
+.contact-header{
+	font-size: 28px;
+	text-align: center;
+}
+
+#information{
+	text-align: center;
+}
+
+#terms{
+	width: 65%;
+	margin: auto;
+}
+
 @media (max-width: 720px){			/*Due to most modern phones going up to FHD resolution, and some above, I have opted for a rather large cut off for mobile phone screens*/
 	
 	p{
