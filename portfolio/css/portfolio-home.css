@@ -78,9 +78,8 @@ nav{
 }
 
 #portfolio{
-	width: 95vw;
+	width: 50;
 	display: flex;
-	flex-flow: row;
 	
 	
 	margin: auto;

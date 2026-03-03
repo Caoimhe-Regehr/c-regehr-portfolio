@@ -87,6 +87,16 @@ nav{
 
 }
 
+.additional-images{
+	margin: 32px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.page-image{
+	width:30%;
+}
+
 @media (max-width: 720px){			/*Due to most modern phones going up to FHD resolution, and some above, I have opted for a rather large cut off for mobile phone screens*/
 	
 	p{
